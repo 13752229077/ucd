@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CAEF143B-F3E4-4F9B-B367-D123E7D0B015"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "701F8613-3E56-4DE7-A78C-D74EDCB23872"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "UITableViewAlertForVisibleCellsAccessDuringUpdate">
+            <Locations>
+               <Location
+                  uuid = "701F8613-3E56-4DE7-A78C-D74EDCB23872 - 450592ddb0594c08"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITableViewAlertForVisibleCellsAccessDuringUpdate"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "tableView"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 14cf77f8f723fe44"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TweeterTags.RecentsTCV.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/TweeterTags/RecentsTVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - b98331f34367bf4e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc TweeterTags.RecentsTCV.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - fec86774cbd2a46c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TweeterTags.RecentsTCV.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/TweeterTags/RecentsTVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 54fd9ffd0f887aaa"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc TweeterTags.RecentsTCV.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - bea8d72e50411043"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TweeterTags.MentionsTVC.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/TweeterTags/MentionsTVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "127">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - ccafb314671ec9b2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc TweeterTags.MentionsTVC.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - fdd171efa4ae1dad"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TweeterTags.MentionsTVC.tableView(_: __C.UITableView, heightForRowAt: Foundation.IndexPath) -&gt; CoreGraphics.CGFloat"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/TweeterTags/MentionsTVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - f5732a7cfd02a137"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc TweeterTags.MentionsTVC.tableView(_: __C.UITableView, heightForRowAt: Foundation.IndexPath) -&gt; CoreGraphics.CGFloat"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 796c6b5a404ae543"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TweeterTags.MentionsTVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/TweeterTags/MentionsTVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "245">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 7fae4338923ea56"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc TweeterTags.MentionsTVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - e270e3c13446d4ac"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TweeterTags.MentionsTVC.tableView(_: __C.UITableView, titleForHeaderInSection: Swift.Int) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/TweeterTags/MentionsTVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "127">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 94d2a4657ae2dc8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc TweeterTags.MentionsTVC.tableView(_: __C.UITableView, titleForHeaderInSection: Swift.Int) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 6250078ba8a1fb1b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TweeterTags.MentionsTVC.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/TweeterTags/MentionsTVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 459fe746663766ce"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc TweeterTags.MentionsTVC.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - a0e6b43d9400c1ea"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TweeterTags.TweetsTVC.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/TweeterTags/TweetsTVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - ba686caa87fd54b7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc TweeterTags.TweetsTVC.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 4af560da8a441296"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TweeterTags.TweetsTVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/TweeterTags/TweetsTVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "127">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 51f4d7bbc61ac561"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc TweeterTags.TweetsTVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "TweeterTags"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/Cocoa%20Touch/TweeterTags-Startup/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - c28fb46e086304a8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SLSheetRootViewController tableView]"
+                  moduleName = "Social"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 812e8bc274c5d367"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UIKit.UITableViewDiffableDataSource.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "libswiftUIKit.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - a4f5bdb2ff2d5da"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc UIKit.UITableViewDiffableDataSource.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "libswiftUIKit.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 63ca674f4d214847"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UIKit.UITableViewDiffableDataSource.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "libswiftUIKit.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 9ea6a18122c16b3c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc UIKit.UITableViewDiffableDataSource.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "libswiftUIKit.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 328f24d5fd0b2489"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UIKit.UITableViewDiffableDataSource.tableView(_: __C.UITableView, titleForHeaderInSection: Swift.Int) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "libswiftUIKit.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - ed525a555c7f2fa3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UIKit.UITableViewDiffableDataSource.tableView(_: __C.UITableView, titleForFooterInSection: Swift.Int) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "libswiftUIKit.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 4c8ae198e0fef8fc"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc UIKit.UITableViewDiffableDataSource.tableView(_: __C.UITableView, titleForFooterInSection: Swift.Int) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "libswiftUIKit.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 64854d0ce03dad2e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UIKit.UITableViewDiffableDataSource.tableView(_: __C.UITableView, canEditRowAt: Foundation.IndexPath) -&gt; Swift.Bool"
+                  moduleName = "libswiftUIKit.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 172e2460a2401a5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc UIKit.UITableViewDiffableDataSource.tableView(_: __C.UITableView, canEditRowAt: Foundation.IndexPath) -&gt; Swift.Bool"
+                  moduleName = "libswiftUIKit.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - c2544abcb7225a70"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UIKit.UITableViewDiffableDataSource.tableView(_: __C.UITableView, commit: __C.UITableViewCellEditingStyle, forRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "libswiftUIKit.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 7e6da02e51a340b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc UIKit.UITableViewDiffableDataSource.tableView(_: __C.UITableView, commit: __C.UITableViewCellEditingStyle, forRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "libswiftUIKit.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 3aa68859c923761d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UIKit.UITableViewDiffableDataSource.tableView(_: __C.UITableView, canMoveRowAt: Foundation.IndexPath) -&gt; Swift.Bool"
+                  moduleName = "libswiftUIKit.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - cc606f42b45a0860"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UIKit.UITableViewDiffableDataSource.tableView(_: __C.UITableView, moveRowAt: Foundation.IndexPath, to: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "libswiftUIKit.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 3f5c3f2d61dfc6ae"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc UIKit.UITableViewDiffableDataSource.tableView(_: __C.UITableView, moveRowAt: Foundation.IndexPath, to: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "libswiftUIKit.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 50a58b4f5fbfbf6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UIKit.UITableViewDiffableDataSource.tableView(_: __C.UITableView, sectionForSectionIndexTitle: Swift.String, at: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "libswiftUIKit.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - d478cf3b4bf30c84"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc UIKit.UITableViewDiffableDataSource.tableView(_: __C.UITableView, sectionForSectionIndexTitle: Swift.String, at: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "libswiftUIKit.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 419384f9bf785d85"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CNUIFamilyMemberDowntimeContactPickerController tableView]"
+                  moduleName = "ContactsUI"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 7a698389bb1cbc94"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CNMeCardSharingSettingsViewController tableView]"
+                  moduleName = "ContactsUI"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 2636141f1d43eff"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CNContactContentViewController(Deprecated) tableView]"
+                  moduleName = "ContactsUI"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 5c1b09f8be10d5fd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CNPostalAddressEditorView tableView]"
+                  moduleName = "ContactsUI"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 27326586c8da7d99"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CNMeCardSharingPickerViewController tableView]"
+                  moduleName = "ContactsUI"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 2074a316b4a85325"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CNAvatarCardActionsView tableView]"
+                  moduleName = "ContactsUI"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - dc6f5009cb13ab77"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AKAuthorizationPaneViewController tableView]"
+                  moduleName = "AuthKitUI"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - ec192a6e5f607ca9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UIAlertView tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 23f7b4b42cea784f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[__UIDiffableDataSource tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 43a8db58004efa62"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_UIDiffableDataSourceViewUpdater tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 37143233afd2a613"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UITableViewController tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - e53187a704f7063"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UITableViewFocusUpdateContext tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 2882f5333bed72bd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_UITableViewMultiSelectController tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 5050356f93b14e13"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_UITableViewDiffableDataSource tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 845286b4e159f429"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_UITableViewDragController tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - db0df5d6e4e0a51a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_UITableViewDragItemContext tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 3eac1a15ce5a7750"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_UITableViewDropController tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 7267fb16ac49cb4d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_UITableViewCellPromiseRegion tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 527403bfbb1bea1c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UITableViewHeaderFooterView tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - ef91c4b2da9dece0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_UITableViewShadowUpdatesController tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 961bcb1eda7c3c37"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_UITableViewSubviewManager tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - d71e33dcc4390f1b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UIDebuggingInformationOverlayWindowPickerViewController tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 7bd318b1893da9d3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UIDebuggingInformationVCHierarchyViewController tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - 718f15f08c1fd38d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_UIPrototypingMenuViewController tableView]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - ed2d845a8627084c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_UIActivityUserDefaultsViewController tableView]"
+                  moduleName = "ShareSheet"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - da849fff454c2b2a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ObjectManipulationViewController tableView]"
+                  moduleName = "ShareSheet"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - cc9ead4e92b43185"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RUITableViewHeaderFooterView tableView]"
+                  moduleName = "RemoteUI"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - b3d6dce80f885d26"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RUITableView tableView]"
+                  moduleName = "RemoteUI"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EF42376-0C80-48EE-BA8A-652F8B206FD7 - f6da57c5a6f429ee"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OBTableWelcomeController tableView]"
+                  moduleName = "OnBoardingKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
