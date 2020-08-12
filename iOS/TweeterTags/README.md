@@ -2,51 +2,51 @@
 
 Step 1.
 
-I applied for a Twitter Developer account and registered the app idea.
+• I applied for a Twitter Developer account and registered the app idea.
 
-Upon confirmation for the app I tested that Twitter’s authentication was
+• Upon confirmation for the app I tested that Twitter’s authentication was
 working.
 
-I created a new **UITableViewController** called **TweetsTVC** and
+• I created a new **UITableViewController** called **TweetsTVC** and
 replaced the existing View Controller in storyboard.
 
-I added the model (**var tweets = \[\[TwitterTweet\]\]**), the search
+• I added the model (**var tweets = \[\[TwitterTweet\]\]**), the search
 property **twitterQueryText** along with the **refresh()** method to
 fetch new Tweets.
 
 **let** request = TwitterRequest(search: twitterQueryText, count: 50)
 
-DispatchQueue.global(qos: .background).async {
+    DispatchQueue.global(qos: .background).async {
 
-request.fetchTweets { (fetchedTweets) -\> Void **in**
+    request.fetchTweets { (fetchedTweets) -\> Void **in**
 
 This segment of the refresh() method uses the twitterQueryText to create
 a TwitterRequest to return 50 tweets. This request then fetches the
 tweets asynchronously so as not to block the UI.
 
-I added the appropriate code to the didSet() property observer of
+• I added the appropriate code to the didSet() property observer of
 **twitterQueryText** and implemented all required tableview datasource
 delegate methods.
 
 Step 2.
 
-I added the “Twitter Query” textfield and wired it up to the
+• I added the “Twitter Query” textfield and wired it up to the
 **twitterQueryTextField** outlet.
 
-I added the function **textFieldShouldReturn(\_** textField:
+• I added the function **textFieldShouldReturn(\_** textField:
 UITextField) -\> Bool to search an entered query upon pressing the enter
 key. Passing to the next first responder with
 
 twitterQueryTextField.resignFirstResponder()
 
-I created a new **TweetTVCell** class (in TweetsTVC) and customised the
+• I created a new **TweetTVCell** class (in TweetsTVC) and customised the
 cell![](.//media/image1.png) with the following:
 
-I added all necessary constraints and initialised the tableView’s
+• I added all necessary constraints and initialised the tableView’s
 **estimatedRowHeight** and **tableView.rowHeight=
 UITableView.automaticDimension**.
 
-I added the following tableView datasource methods which take care of
+• I added the following tableView datasource methods which take care of
 initialising the tableView rows.
 
 **override** **func** numberOfSections(in tableView: UITableView) -\>
@@ -75,7 +75,7 @@ dequeuedCell.tweet = tweets\[indexPath.section\]\[indexPath.row\]
 
 }
 
-In the **TweetTVCell** class I added the outlets for the above UILabels
+• In the **TweetTVCell** class I added the outlets for the above UILabels
 and UIImageView and assigned the handleLabel for the user. The profile
 picture is downloaded from the URL using the following code:
 
@@ -89,7 +89,7 @@ profileImageView.image = UIImage(data: imageData)
 
 }
 
-The date was a bit tricker as I wanted to display it in the following
+• The date was a bit tricker as I wanted to display it in the following
 format:
 
 Posted 1 hour or less -\> Xm eg. 53m
@@ -100,27 +100,27 @@ Posted 1 hour or less -\> Xm eg. 53m
 
 24h \< Posted -\> Zd eg. 4d
 
-The tweet itself was initially just plain text.
+• The tweet itself was initially just plain text.
 
 **<span class="underline">Readme - Part 2</span>**
 
-To highlight the different aspects of a tweet (hashtags, URLs, handles)
+• To highlight the different aspects of a tweet (hashtags, URLs, handles)
 I made use of the NSAttributed string class
 
 **let** attributedString = NSMutableAttributedString(string:
 tweet\!.text)
 
-It took me a lot of messing around to get the orientation of the labels
+• It took me a lot of messing around to get the orientation of the labels
 picture correct but the following seem good:![](.//media/image2.png)
 
-I next created the MentionsTVC class and designed the corresponding
+• I next created the MentionsTVC class and designed the corresponding
 UITableViewController. The only real set up in terms of dragging UI
 components was for the UIImageView row of this table. The remaining rows
 I just left blank but ensured I gave them all meaningful names for
 dequeuing later. This gave a section each to images, hashtags, URLs and
 users.
 
-For the method that returns the header of each section I used the
+• For the method that returns the header of each section I used the
 following:
 
 **switch** section {
@@ -129,15 +129,15 @@ following:
 
 **return** (tweet\!.media.count) \> 0 ? "Images" : “”
 
-If a user clicks either a hashtag or a user then that term is used to
+• If a user clicks either a hashtag or a user then that term is used to
 perform a search.
 
-If a user clicks a link it is opened up in Safari using the following:
+• If a user clicks a link it is opened up in Safari using the following:
 
 UIApplication.shared.open(URL(string:
 (tweet?.urls\[indexPath.row\].keyword)\!)\!)
 
-If a user clicks an image a new ImageVC Scene opens with the image
+• If a user clicks an image a new ImageVC Scene opens with the image
 zoomed. I added two Segues to control this behaviour. 1 for the images:
 
 **if** segue.identifier == "showZoom" {
@@ -152,7 +152,7 @@ imageVC.url = tweet?.media\[0\].url
 
 }
 
-The other Segue covers both options as they’re both just searches using
+• The other Segue covers both options as they’re both just searches using
 the **twitterQueryText**:
 
 **else** {
@@ -169,7 +169,7 @@ destination.twitterQueryText = (cell.textLabel?.text\!)\!
 
 }
 
-The design and implementation of the ImageVC was next but took the
+• The design and implementation of the ImageVC was next but took the
 longest by far as there are many intricacies of working with images and
 scrollViews. I eventually got it working ok with the following
 behaviour.
@@ -189,7 +189,7 @@ scrollView.zoom(to: getRectangle(scale: scrollView.minimumZoomScale,
 center: CGPoint(x: image\!.size.width/2.0, y: image\!.size.height/2.0)),
 animated: **true**)
 
-Finally, I added persistence by use of the User Defaults. Upon calling
+• Finally, I added persistence by use of the User Defaults. Upon calling
 of the **twitterQueryText** property observer, the allocated String is
 stored in the User Defaults under the key
 “twitterHi![](.//media/image3.png)story”. A new Scene to display these
