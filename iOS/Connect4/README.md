@@ -7,6 +7,19 @@ The game is played against a deep learning bot, called α-C4, trained to play Co
 
 The description of this assignment was intentionally vague so that students could express their creativity both in terms of programming skills and UI design. 
 
+Below are some screenshots of Connect4:
+
+
 Launch Screen of Connect4             |  Game in play
 :-------------------------:|:-------------------------:
 ![](https://github.com/DanH139/ucd/blob/master/iOS/Connect4/Screenshots/Screenshot%202020-04-10%20at%2007.04.28.png) |  ![](https://github.com/DanH139/ucd/blob/master/iOS/Connect4/Screenshots/Screenshot%202020-04-10%20at%2007.05.50.png)
+
+
+Completed game showing order of moves             |  History tab where previous games can be selected and replayed
+:-------------------------:|:-------------------------:
+![](https://github.com/DanH139/ucd/blob/master/iOS/Connect4/Screenshots/Screenshot%202020-04-10%20at%2007.11.06.png) |  ![](https://github.com/DanH139/ucd/blob/master/iOS/Connect4/Screenshots/Screenshot%202020-04-10%20at%2007.11.20.png)
+
+
+Action Replay screen where user can jump back in  | Restart prompt in game with randomised board & token colours 
+:-------------------------:|:-------------------------:
+![](https://github.com/DanH139/ucd/blob/master/iOS/Connect4/Screenshots/Screenshot%202020-04-10%20at%2007.11.42.png) |  ![](https://github.com/DanH139/ucd/blob/master/iOS/Connect4/Screenshots/Screenshot%202020-04-10%20at%2007.12.08.png)
