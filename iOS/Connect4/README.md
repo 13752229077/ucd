@@ -6,3 +6,7 @@ Final assignment for **CocaoTouch App Development** module to build an iOS game 
 The game is played against a deep learning bot, called α-C4, trained to play Connect4, It is packaged into an iOS framework (credit Guenole Silvestre - UCD) called Alpha0Connect4. The task was to build a responsive, dynamic user interface for the game so that a user can play against α-C4.
 
 The description of this assignment was intentionally vague so that students could express their creativity both in terms of programming skills and UI design. 
+
+Launch Screen of Connect4             |  Game in play
+:-------------------------:|:-------------------------:
+![](https://github.com/DanH139/ucd/blob/master/iOS/Connect4/Screenshots/Screenshot%202020-04-10%20at%2007.04.28.png) |  ![](https://github.com/DanH139/ucd/blob/master/iOS/Connect4/Screenshots/Screenshot%202020-04-10%20at%2007.05.50.png)
