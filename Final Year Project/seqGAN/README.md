@@ -4,7 +4,7 @@ To execute the code in this project:
 
 *Either*
 
-1) Clone either the entrie repository
+1) Download the entire folder using [DownGit](https://downgit.github.io/#/home?url=https://github.com/DanH139/ucd/tree/master/Final%20Year%20Project/seqGAN)  
 
 2) Run [seqGAN.py](https://github.com/DanH139/ucd/blob/master/Final%20Year%20Project/seqGAN/seqGAN.py)
 
