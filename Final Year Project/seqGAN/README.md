@@ -6,13 +6,13 @@ To execute the code in this project:
 
 1) Clone either the entrie repository
 
-2) Run seqGAN.py
+2) Run [seqGAN.py](https://github.com/DanH139/ucd/blob/master/Final%20Year%20Project/seqGAN/seqGAN.py)
 
 *Or, alternatively* 
 
-1) Download seqGAN.ipynb and requirements.txt
+1) Download [seqGAN.ipynb](https://github.com/DanH139/ucd/blob/master/Final%20Year%20Project/seqGAN/seqGAN.ipynb) and [requirements.txt](https://github.com/DanH139/ucd/blob/master/Final%20Year%20Project/seqGAN/requirements.txt)
 
-2) Run all cells of seqGAN.ipynb
+2) Execute all cells of [seqGAN.ipynb](https://github.com/DanH139/ucd/blob/master/Final%20Year%20Project/seqGAN/seqGAN.ipynb)
 
 
-For further details and results, see Report.pdf
+For further details and results, see [Report.pdf](https://github.com/DanH139/ucd/blob/master/Final%20Year%20Project/seqGAN/Report.pdf)
