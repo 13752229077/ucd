@@ -5,15 +5,28 @@ COMP47650 - Deep Learning Group Project
 by Daniel Hand, Shane Kennedy and Thu Trang Nguyen.       
 
 ## Dataset
-The contents of [data](https://github.com/DanH139/ucd/tree/master/Deep%20Learning/Freesound%20Audio%20Tagging/data) can be found [here](https://ucd-my.sharepoint.com/:u:/g/personal/daniel_hand_ucdconnect_ie/EZVF_TnCRnpOtuqch0sGDv8B_fPaLB0vkQffHID8LUiWSQ?e=T5g7de)      
+1. The contents of [data](https://github.com/DanH139/ucd/tree/master/Deep%20Learning/Freesound%20Audio%20Tagging/data) can be found [here](https://ucd-my.sharepoint.com/:u:/g/personal/daniel_hand_ucdconnect_ie/EZVF_TnCRnpOtuqch0sGDv8B_fPaLB0vkQffHID8LUiWSQ?e=T5g7de)      
 
-The audio_test, audio_train and submission files can be downloaded using the following bash commands:     
+2. The audio_test, audio_train and submission files can be downloaded using the following bash commands:     
 
-wget -O FSDKaggle2018.audio_train.zip https://zenodo.org/record/2552860/files/FSDKaggle2018.audio_train.zip?download=1          
-wget -O FSDKaggle2018.audio_test.zip https://zenodo.org/record/2552860/files/FSDKaggle2018.audio_test.zip?download=1        
-wget -O FSDKaggle2018.meta.zip https://zenodo.org/record/2552860/files/FSDKaggle2018.meta.zip?download=1        
+**audio_train**
+``` sh
+wget -O FSDKaggle2018.audio_train.zip https://zenodo.org/record/2552860/files/FSDKaggle2018.audio_train.zip?download=1 
+```
 
-*Alternatively*, run [main.py](https://github.com/DanH139/ucd/blob/master/Deep%20Learning/Freesound%20Audio%20Tagging/main.py) which executes the bash commands in [dataset.sh](https://github.com/DanH139/ucd/blob/master/Deep%20Learning/Freesound%20Audio%20Tagging/dataset.sh)
+**audio_test**
+``` sh
+wget -O FSDKaggle2018.audio_test.zip https://zenodo.org/record/2552860/files/FSDKaggle2018.audio_test.zip?download=1 
+```
+
+**submission files**
+``` sh 
+wget -O FSDKaggle2018.meta.zip https://zenodo.org/record/2552860/files/FSDKaggle2018.meta.zip?download=1 
+```
+
+
+*Alternatively*, 
+1. Run [main.py](https://github.com/DanH139/ucd/blob/master/Deep%20Learning/Freesound%20Audio%20Tagging/main.py) which executes the bash commands in [dataset.sh](https://github.com/DanH139/ucd/blob/master/Deep%20Learning/Freesound%20Audio%20Tagging/dataset.sh)
 
         
             
@@ -71,5 +84,5 @@ visualisation.py
 6 directories, 52232 files*
 
 
-* including directories
+*including directories
 
