@@ -70,10 +70,10 @@ FreesoundAudioTagging
 |    |── cnn.py        
 |    |── sgd.py        
 |    |── svm.py        
-|    |── vnn.py  
+|    └── vnn.py  
 ├─── submission        
 |    |── test_post_competition_scoring_clips.csv       
-|    |── train_post_competition.csv    
+|    └── train_post_competition.csv    
 ├─── dataset.sh      
 ├─── download_dataset.py     
 ├─── freesound_audio_tagging.ipynb       
