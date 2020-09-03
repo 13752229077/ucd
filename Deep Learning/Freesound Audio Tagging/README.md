@@ -5,11 +5,9 @@ COMP47650 - Deep Learning Group Project
 by Daniel Hand, Shane Kennedy and Thu Trang Nguyen.       
 
 ## Dataset
-The contents of data/ can be found here:        
+The contents of data/ can be found [here](https://ucd-my.sharepoint.com/:u:/g/personal/daniel_hand_ucdconnect_ie/EZVF_TnCRnpOtuqch0sGDv8B_fPaLB0vkQffHID8LUiWSQ?e=T5g7de)      
 
-https://ucd-my.sharepoint.com/:u:/g/personal/daniel_hand_ucdconnect_ie/EZVF_TnCRnpOtuqch0sGDv8B_fPaLB0vkQffHID8LUiWSQ?e=T5g7de      
-
-The audio_test, audio_train and submission files can be downloaded via:     
+The audio_test, audio_train and submission files can be downloaded using the following bash commands:     
 
 wget -O FSDKaggle2018.audio_train.zip https://zenodo.org/record/2552860/files/FSDKaggle2018.audio_train.zip?download=1          
 wget -O FSDKaggle2018.audio_test.zip https://zenodo.org/record/2552860/files/FSDKaggle2018.audio_test.zip?download=1        
@@ -20,7 +18,7 @@ or by executing main.py which executes the commands in dataset.sh.
         
             
 ## Repository Structure
-The file structure of this repository is the following:
+The file structure of this repository* is the following:
 
 FreesoundAudioTagging       
 - checkpoints        
@@ -70,5 +68,8 @@ README.md
 summary_feats_funcs.py      
 visualisation.py        
                                         
-6 directories, 52232 files             
+6 directories, 52232 files*
+
+
+* including directories
 
