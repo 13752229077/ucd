@@ -1,0 +1,28 @@
+version: '3.5'
+services:
+    broker:
+        image: broker:latest
+        container_name: broker
+        ports:
+            - "9000:9000"
+        expose:
+            - 9000
+    girlpower:
+        image: girlpower:latest
+        container_name: girlpower
+        depends_on:
+            - broker
+    dodgydrivers:
+        image: dodgydrivers:latest
+        container_name: dodgydrivers
+        depends_on:
+            - broker
+    auldfellas:
+        image: auldfellas:latest
+        container_name: auldfellas
+        depends_on:
+            - broker            
+networks:
+    default:
+        external:
+            name: network

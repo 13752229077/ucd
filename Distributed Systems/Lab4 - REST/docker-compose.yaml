@@ -1,0 +1,29 @@
+version: '3.5'
+
+services:
+  broker:
+    image: broker:latest
+    ports:
+      - "8080:8080"
+    expose:
+      - 8080
+    environment:
+      - URLS=http://auldfellas:8081/quotations,http://girlpower:8083/quotations,http://dodgydrivers:8082/quotations
+  auldfellas:
+    image: auldfellas:latest
+    ports:
+      - "8081:8081"
+    links:
+      - broker
+  girlpower:
+    image: girlpower:latest
+    ports:
+      - "8083:8083"
+    links:
+      - broker
+  dodgydrivers:
+    image: dodgydrivers:latest
+    ports:
+      - "8082:8082"
+    links:
+      - broker

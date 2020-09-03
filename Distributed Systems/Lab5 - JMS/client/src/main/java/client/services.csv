@@ -1,0 +1,230 @@
+Service_id,Name,Website,PhoneNum,County
+1,"Dublin City Central Placement Service
+
+
+
+",www.homelessdublin.ie ,"1800 707 707
+
+
+
+",DUBCITY
+2,Dublin Outreach ,www.primarycaresafetynet.ie/dublinoutreach,"086 8139015,
+(01) 872 0185
+
+
+",DUBCITY
+3,"Inner City Helping Homeless
+
+
+
+",www.ichh.ie,085 838 9281,DUBCITY
+4,"Tenancy Protection Service
+
+
+
+",www.threshold.ie/housing-supports/dublin.html,1800 454 454,DUBCITY
+5,"Tenancy Protection Service
+
+
+
+",www.threshold.ie/housing-supports/dublin.html,1800 454 454,DUNRATH
+6,"Tenancy Protection Service
+
+
+
+",www.threshold.ie/housing-supports/dublin.html,1800 454 454,FING
+7,"Tenancy Protection Service
+
+
+
+",www.threshold.ie/housing-supports/dublin.html,1800 454 454,SOUDUB
+8,"Tenancy Protection Service
+
+
+
+",www.threshold.ie/housing-supports,1800 454 454,KE
+9,"Tenancy Protection Service
+
+
+
+",www.threshold.ie/housing-supports,1800 454 454,M
+10,"Tenancy Protection Service
+
+
+
+",www.threshold.ie/housing-supports,1800 454 454,WW
+11,"Tenancy Protection Service
+
+
+
+",www.threshold.ie/housing-supports,1800 454 454,C
+12,"Tenancy Protection Service
+
+
+
+",www.threshold.ie/housing-supports,1800 454 454,G
+13,"Dun Laoghaire-Rathdown County Council
+
+
+
+",homeless@dlrcoco.ie,"(01) 205 4700
+
+
+
+",DUNRATH
+14,"Fingal - Repeat Homeless Presentations
+
+
+
+",homeless@fingal.ie ,"(01) 890 5800
+
+
+
+",FING
+15,"Fingal - New Homeless Presentations
+
+
+
+",homeless@fingal.ie ,"(01) 890 5090
+
+
+
+",FING
+16,"South Dublin County Council
+
+
+
+",www.sdcc.ie/en/services/housing/finding-a-home/homeless-services,"(01) 414 9000
+
+
+
+",SOUDUB
+17,Dublin Outreach ,www.primarycaresafetynet.ie/dublinoutreach,"086 8139015,(01) 872 0185
+
+",FING
+18,Dublin Outreach ,www.primarycaresafetynet.ie/dublinoutreach,"086 8139015,(01) 872 0185",DUNRATH
+19,Dublin Outreach ,www.primarycaresafetynet.ie/dublinoutreach,"086 8139015,(01) 872 0185",SOUDUB
+20,Kildare County Council,www.kildare.ie/CountyCouncil/Housing/HomelessServices,(045) 980 705,KE
+21,Kildare County Council (Out of Hours),kildare.ie/CountyCouncil/Housing/HomelessServices,1800 804 307,KE
+22,Meath County Council,www.meath.ie/council/council-services/housing/homeless-service,(046) 909 7297,M
+23,Mid West Simon,www.midwestsimon.ie/contact,(061) 608 980,CE
+24,Mid West Simon,www.midwestsimon.ie/contact,(061) 608 980,T
+25,Mid West Simon,www.midwestsimon.ie/contact,(061) 608 980,L
+26,The Peter McVerry Trust,www.pmvtrust.ie,(01) 823 0776,SOUDUB
+27,The Peter McVerry Trust,www.pmvtrust.ie,(061) 214 882,L
+28,The Peter McVerry Trust,www.pmvtrust.ie,(041) 983 4274,LH
+29,Mount Cara,carahouse@eircom.net,(021) 439 5737,C
+30,Laois County Council,www.laois.ie/out-of-hours-homeless-service,(087) 4454542,LS
+31,Bethany House (For Women),bethany.house@svp.ie,(043) 334 8136,LD
+32,St. Martha's Hostel (For Men),stmarthas.hostel@svp.ie,(043) 334 8062,LD
+33,Longford Town,info.northeast@svp.ie,(043) 334 2084,LD
+34,Offaly County Council,webmaster@offalycoco.ie,1890 750 750,OY
+35,Midlands Simon Community,info@midlandssimon.com ,(090) 6444641,OY
+36,Kieran Butler - Housing Welfare Officer,www.westmeathcoco.ie/en/ourservices/housing/homelessoratrisk,(044) 933 2287,WM
+37,Dublin Housing First,dublinhousingfirst@pmvtrust.ie,1800 805 820,SOUDUB
+38,Dublin Housing First,dublinhousingfirst@pmvtrust.ie,1800 805 820,FING
+39,Dublin Housing First,dublinhousingfirst@pmvtrust.ie,1800 805 820,DUBCITY
+40,Dublin Housing First,dublinhousingfirst@pmvtrust.ie,1800 805 820,DUNRATH
+41,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,CW
+42,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,CV
+43,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,CE
+44,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,C
+45,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,DL
+46,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,DUBCITY
+47,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,DUNRATH
+48,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,FING
+49,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,G
+50,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,KY
+51,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,KE
+52,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,KK
+53,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,LS
+54,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,LM
+55,Suaimhneas (Respond!),orlaith.corr@respond.ie,(051) 840 200,L
+56,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,LD
+57,NOVAS,www.novas.ie/need-help,1800 606 060,L
+58,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,MO
+59,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,M
+60,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,MN
+61,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,OY
+62,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,RN
+63,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,SO
+64,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,SOUDUB
+65,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,T
+66,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,W
+67,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,WM
+68,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,WX
+69,The Peter McVerry Trust - National Head Office,www.pmvtrust.ie,(01) 823 0776,WW
+70,"Homeless Action Team
+Clare County Council",hat@clarecoco.ie,(065) 684 6291,CE
+71,St. Patrick’s Hostel (SVP),stpatricks.hostel@svp.ie,(061) 317 245,L
+72,Focus Ireland,grainne.madigan@focusireland.ie,(061) 317 199,L
+73,Louth County Council,homeless@louthcoco.ie,1890 202 303,LH
+74,Drogheda Homeless Aid (Men),emmamoore.dha@gmail.com ,(041) 983 4492,LH
+75,Drogheda Women’s and Children’s Refuge Centre,twoods@droghedarefuge.org,(041) 984 4550,LH
+76,Monaghan County Council,info@monaghancoco.ie,(047) 30515,MN
+77,Cavan County Council,housing@cavancoco.ie,(049) 437 8300,CV
+78,Cavan/Monaghan Mental Health Services,CavanMonaghanConsumerPanel@hotmail.com,(047) 77400,MN
+79,Cavan/Monaghan Mental Health Services,CavanMonaghanConsumerPanel@hotmail.com,(049) 437 8920,CV
+80,Donegal County Council,info@donegalcoco.ie,(074) 915 3900,DL
+81,St. Colmcille Hostel for the Homeless,stcolmcilles.hostel@svp.ie,(074) 912 8998,DL
+82,North-West Simon Supported Housing,housingsupport@northwestsimon.ie,(074) 912 1613,DL
+83,Leitrim County Council,housing@leitrimcoco.ie,(071) 965 0426,LM
+84,North-West Simon Supported Housing,housingsupport@northwestsimon.ie,(071) 914 7522,LM
+85,Sligo County Council,housing@sligococo.ie,(071) 911 1111,SO
+86,Sligo Social Services,info@sligosocialservices.ie,(071) 914 5682,SO
+87,Maryville Hostel,finbarr@sligosocialservices.ie,(071) 916 1688,SO
+88,Long-Term Accommodation (Focus Ireland),jamesonm@focusireland.ie,(071) 914 9974,SO
+89,Carlow County Council,sclarke@carlowcoco.ie,(059) 917 2470,CW
+90,Monastery Hostel,svpmonasteryhostel@eircom.net,(059) 914 0322,CW
+91,St. Francis Farm Detox Unit,info.SFFdetox@mqi.ie,(059) 918 6761,CW
+92,Kilkenny County Council,housing@kilkennycoco.ie,(056) 779 4900,KK
+93,Good Shepherd Centre,info@gsck.ie,(056) 772 2566,KK
+94,Short-Term Accommodation (Focus Ireland),kilkennyservices@focusireland.ie,(056) 779 4565,KK
+95,Long-term Supported Housing (Focus Ireland),kilkenny@focusireland.ie,(056) 779 4565,KK
+96,Homeless Persons Centre,www.tipperarycoco.ie/housing,(067) 46503,T
+97,Cuan Saor,www.cuansaor.org,1800 576 757,T
+98,South-East Simon Tenancy Sustainment,info@southeastsimon.ie,(052) 617 2742,T
+99,HSE Substance Misuse Service Clonmel,sinead.omahony@hse.ie,(052) 617 7900,T
+100,Aiseiri Cahir,info@aiseiri.ie,(052) 744 1166,T
+101,Waterford County Council,contact@waterfordcouncil.ie,(076) 110 2020,W
+102,McGwire House Hostel (St. Vincent de Paul),mcgwire.house@svp.ie,(051) 879 930,W
+103,Oasis House,claire@oasishouse.ie,1890 264 364,W
+104,Tinteán Housing,info@tinteanhousing.ie,(051) 844 076,W
+105,Short-term Accommodation (Focus Ireland),cowaterfordservices@focusireland.ie,(058) 43570,W
+106,cowaterfordservices@focusireland.ie,placefinder@waterfordcouncil.ie,(051) 309 900,W
+107,Spring Gardens (Respond!),info@respond.ie,(051) 840 200,W
+108,Long-Term Accommodation (Focus Ireland),cowaterfordservices@focusireland.ie,(058) 43570,W
+109,South East Simon,www.southeastsimon.ie,086 417 1160,W
+110,Wexford County Council,postmaster@wexfordcoco.ie,(053) 919 6000,WX
+111,Wexford Women’s Refuge,wexrefuge@eircom.net,1800 220 444,WX
+112,Ozanam House Hostel SVP (Men),ozanam.hostel@svp.ie,(053) 912 1440,WX
+113,Tenancy Support and Sustainment (Focus Ireland),lobrien@focusireland.ie,(053) 719 6000,WX
+114,Aiseiri Roxborough,info@aiseiri.ie,(053) 914 1818,WX
+115,Cork City Council,homeless@corkcity.ie,(021) 480 5495,C
+116,Emergency Shelter (Simon Communities),shelter@corksimoncommunity.org,(021) 427 8728,C
+117,Cuanlee Refuge,info@cuanleerefuge.org,(021) 427 7698,C
+118,Edel House (Good Shepherd Services),scwedelhouse@goodshepherd.ie,(021) 427 4240,C
+119,St. Vincent’s Hostel ,stvincents.hostel@svp.ie,(021) 431 7899,C
+120,Second Thoughts Bandon,svdpbandon@hotmail.com,(023) 884 3450,C
+121,Fellowship House,info@taborgroup.ie,(021) 488 7110,C
+122,Bessborough Centre (Women),info@bessborough.ie,(021) 435 7730,C
+123,Wellsprings (Women),olivia@wellsprings.ie,(021) 431 8953,C
+124,Clanmornin House (Simon Community),bmrcs@corksimon.ie,(021) 431 8714,C
+125,Tír na nÓg (Simon Community),www.corksimon.ie,(021) 435 0145,C
+126,Cork Simon Emergency Shelter,www.corksimon.ie,086 411 9884,C
+127,Prison In-Reach (Focus Ireland),mcrowley@focusireland.ie,"(021) 427 3646,086 602 9591",C
+128,Kerry County Council,housing@kerrycoco.ie,086 718 3862,KY
+129,Homeless Information Centre,justinbrosnan@kerrycoco.ie,(066) 711 7633,KY
+130,Arlington Lodge (Novas),ronan.doherty@novas.ie ,(066) 719 3800,KY
+131,Knocklee House (Novas),ronan.doherty@novas.ie,(066) 719 7025,KY
+132,Galway County Council,housing@galwaycity.ie,(091) 536 400,G
+133,Housing Department,housing@galwaycity.ie,(091) 894 372,G
+134,Fairgreen Hostel - COPE (Men),fairgreen@copegalway.ie,(091) 568 818,G
+135,Osterley Lodge - COPE (Women),osterley@copegalway.ie,(091) 521 301,G
+136,Teach Corrib Day Centre - COPE,daycentre@copegalway.ie,(091) 525 259,G
+137,Waterside - COPE (Women),waterside@copegalway.ie,(091) 565 985,G
+138,Family Support Service - COPE,familiessupport@copegalway.ie,(091) 527 571,G
+139,Mayo County Council,housing@mayococo.ie ,(094) 902 4444,MO
+140,Mayo Women’s Support Service – Safe Ireland,mwss@eircom.net,"(094) 902 5409,087 656 9672",MO
+141,Roscommon County Council,housing@roscommoncoco.ie,(090) 663 7100,RN
+142,Council Administrative Officer,cfinlay@roscommoncoco.ie,(090) 663 7242,RN

@@ -1,0 +1,34 @@
+version: '3.7'
+services:
+    server:
+        image: broker:latest
+        ports:
+        - "1099:1099"
+    auldfellas:
+        image: auldfellas:latest
+        links:
+        - server
+        depends_on:
+        - server
+    girlpower:
+        image: girlpower:latest
+        links:
+        - server
+        depends_on:
+        - server
+    dodgydrivers:
+        image: dodgydrivers:latest
+        links:
+        - server
+        depends_on:
+        - server
+    client:
+        image: client:latest
+        links:
+        - server
+        depends_on:
+        - server
+        - auldfellas
+        - girlpower
+        - dodgydrivers
+        
