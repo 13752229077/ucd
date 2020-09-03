@@ -1,13 +1,13 @@
 # MCINO
 Software Engineering Project 3
 
-MCINO Code Smeller
+MCINO Code Smell Detector
 
 ---
 SETTING UP THE MAVEN PROJECT IN INTELLIJ
 -
 
-1.	Import the project from the local repository
+1.	Import the project from the local repository via [DownGit](https://downgit.github.io/#/home?url=https://github.com/DanH139/ucd/tree/master/Software%20Engineering%203/Smell%20Detector%20-%20MCINO)
 
 2.	Make sure <code>Create project from existing sources</code> is selected and press <code>Next</code>.
 
