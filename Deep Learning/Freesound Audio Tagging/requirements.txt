@@ -1,0 +1,11 @@
+extra_keras_metrics
+jupyter
+librosa
+matplotlib
+numba==0.48.0
+numpy
+pandas
+pushbullet.py
+scikit-learn
+tensorflow
+tqdm
