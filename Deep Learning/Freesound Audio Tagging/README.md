@@ -34,7 +34,7 @@ wget -O FSDKaggle2018.meta.zip https://zenodo.org/record/2552860/files/FSDKaggle
 ---            
 Repository Structure
 -
-The file structure of this repository* is the following:
+The file structure of this repository is the following:
 
 
 ```
@@ -42,7 +42,7 @@ FreesoundAudioTagging
 ├─── checkpoints        
 |    |── cnn-weights.{epoch:02d}-{val_loss:.2f}.hdf5       
 |    └── vnn-weights.{epoch:02d}-{val_loss:.2f}.hdf5       
-├─── data      
+├─── data*      
 |    |── audio_test_trim              
 |    |   |── abcd1234.wav.npy       
 |    |   |── ................
