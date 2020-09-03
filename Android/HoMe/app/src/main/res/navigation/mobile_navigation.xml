@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.home.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/home_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_contacts"
+        android:name="com.example.home.ui.contacts.ContactsFragment"
+        android:label="@string/title_contacts"
+        tools:layout="@layout/contacts_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_tips"
+        android:name="com.example.home.ui.tips.TipsFragment"
+        android:label="@string/title_tips"
+        tools:layout="@layout/tips_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.example.home.ui.more.MoreFragment"
+        android:label="@string/title_more"
+        tools:layout="@layout/more_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_report"
+        android:name="com.example.home.ui.report.ReportFragment"
+        android:label="@string/title_report"
+        tools:layout="@layout/report_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_yourreports"
+        android:name="com.example.home.ui.your_reports.YourReportsFragment"
+        android:label="@string/title_yourreports"
+        tools:layout="@layout/your_reports_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_stats"
+        android:name="com.example.home.ui.stats.StatsFragment"
+        android:label="@string/title_stats"
+        tools:layout="@layout/stats_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_faq"
+        android:name="com.example.home.ui.faq.FaqFragment"
+        android:label="@string/title_faq"
+        tools:layout="@layout/faq_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_privacy"
+        android:name="com.example.home.ui.privacy.PrivacyFragment"
+        android:label="@string/title_privacy"
+        tools:layout="@layout/privacy_fragment" />
+</navigation>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/infoText"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="8dp"
+        android:text="@string/statsInfoText"
+        android:background="@color/email_unpressed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/coloured_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/infoText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:src="@drawable/counties_vector_colours"
+        android:contentDescription="@string/counties_description"
+        />
+    <ImageView
+        android:id="@+id/green_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/infoText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:src="@drawable/counties_vector_white"
+        android:contentDescription="@string/counties_colour_description"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        app:layout_constraintTop_toBottomOf="@id/green_map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0">
+
+        <TableRow
+            android:gravity="center">
+            <TextView
+                android:text="@string/county"
+                style="@style/CountyStatsHeadings"
+                android:layout_column="0"/>
+
+            <TextView
+                android:text="@string/month1"
+                style="@style/CountyStatsHeadings"
+                android:layout_column="1"/>
+
+            <TextView
+                android:text="@string/month2"
+                style="@style/CountyStatsHeadings"
+                android:layout_column="2"/>
+
+            <TextView
+                android:text="@string/month3"
+                style="@style/CountyStatsHeadings"
+                android:layout_column="3"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/countyStats"
+            android:gravity="center">
+            <TextView
+                style="@style/CountyStatsRows"
+                android:layout_column="0"/>
+
+            <TextView
+                style="@style/CountyStatsRows"
+                android:layout_column="1"/>
+
+            <TextView
+                style="@style/CountyStatsRows"
+                android:layout_column="2"/>
+
+            <TextView
+                style="@style/CountyStatsRows"
+                android:layout_column="3"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

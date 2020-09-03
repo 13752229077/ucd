@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">hoME</string>
+    <string name="title_yourreports">Your Reports</string>
+    <string name="title_more">More</string>
+    <string name="title_home">Home</string>
+    <string name="title_contacts">Contacts</string>
+    <string name="title_tips">Tips</string>
+    <string name="title_report">Report</string>
+    <string name="title_stats">Statistics</string>
+    <string name="title_faq">FAQ</string>
+    <string name="title_privacy">Privacy</string>
+    <string name="title_contactus">Contact Us</string>
+    <string name="title_location">Location</string>
+    <string name="copyright_notice">Copyright © 2019 hoME | All rights reserved</string>
+    <string name="report">Report</string>
+    <string name="contact_phone">Phone: 087–241-FAKE</string>
+    <string name="contact_email">E-mail: home-rough-sleepers@fake.com</string>
+    <string name="dos_title">DO\'S</string>
+    <string-array name="dos_list">
+        <item>If possible, always have a friend with you when approaching rough sleepers to ensure your safety.</item>
+        <item>Contact the relevant services if you are worried about a rough sleeper. You can do so directly by accessing the Contacts tab, or submitting a report through the Home tab.</item>
+        <item>Offer them directions to the nearest shelter or any other homeless service you are aware of nearby.</item>
+        <item>If you intend to give food to the rough sleeper make sure they know what it contains, in case of allergies.</item>
+        <item>Offer them a blanket if you can, especially on colder nights. Even if you report a rough sleeper, you don\'t know that they will get shelter that night (or that they\'ll accept it).</item>
+        <item>Best way to help is to volunteer for the different services around the area. They will usually train you in dealing with rough sleepers and ensure your safety.</item>
+        <item>Walk away from a rough sleeper if you fear for your safety at any point. Don\'t worry if you appear rude, safety comes first!</item>
+    </string-array>
+    <string name="donts_title">DON\'TS</string>
+    <string-array name="donts_list">
+        <item>Refrain from offering money to a rough sleeper.  Many people out on the streets are dealing with addiction problems and money can fuel these. If you wish to give money, find a charity which supports your cause and donate to them.</item>
+        <item>Don\'t approach a rough sleeper in a poorly lit area. Remember that you don\'t know this person.</item>
+        <item>Don\'t be rude and/or disrespectful. The person you are dealing with is a human being just like you and deserves to be treated with respect regardless of their circumstances.</item>
+        <item>If you are submitting a photo alongside your report, avoid as much as possible showing the identities of the rough sleeper or anyone else without their consent. The photos ideally should only show the location where the rough sleeper is located, no faces.</item>
+        <item>Don\'t give sugary drinks to the person, they tend to increase thirst rather than quench it. Water or Tea are the best drinks to provide, but ensure the tea is not too hot!</item>
+        <item>Don\'t offer lifts and/or shelter to rough sleepers. Again, you are dealing with strangers, your safety should always be your priority.</item>
+        <item>Don\'t pressure anyone into going to a shelter, they may have had bad experiences and prefer the outside.</item>
+        <item>Never approach a rough sleeper who\'s intoxicated. Intoxicated people can be unpredictable, especially those who are sleeping rough. Your safety comes first!</item>
+    </string-array>
+    <string name="home_msg">
+        <![CDATA[
+        <body style="text-align:justify;color:black;font-size:120%">
+            <i style="font-size:140%">ho<b style="color:#00AEFF">me</b></i> is an app created by Computer Science students to allow members of the public to report rough sleepers. The app will allow
+            the relevant services to access the reports database to try and help the people reported. The app also provides tips on how to approach a rough sleeper alongside
+            contact information for local services so that one can still contact someone even without internet access. Before submitting any reports, please read more about
+            the app in Tips, FAQs and Privacy sections. Submissions ARE anonymous. To report a rough sleeper, simply press the <b>Report</b> button below.
+        </body>
+        ]]>
+    </string>
+    <string name="homeless_flag_desc">International Flag for the Homeless and Poor</string>
+    <string-array name="faq">
+        <item>How do I submit a report?</item>
+        <item>Go to the home screen and press the big blue report button then fill out the form.</item>
+
+        <item>What happens to my report?</item>
+        <item>Your report is stored locally on your device, and if you have an internet connection it will also be submitted to a remote database.</item>
+
+        <item>I want to help the person alongside the report, how do I go about it?</item>
+        <item>Go to the Tips tab and read the Do\'s and Don\'ts of dealing with rough sleepers, that should establish a guideline for you.</item>
+
+        <item>There is no contact information for my area but I know there are services nearby, is there a reason for this?</item>
+        <item>Contact information is continuously updated. If you wish to help us include as many services as possible, contact us with the information.</item>
+
+        <item>The app is not working correctly, what do I do?</item>
+        <item>Contact us using the details provided in Contact Us section of the More tab outlining the issue you are having with the app.</item>
+
+        <item>Can I get access to the entire database of reports made by others?</item>
+        <item>For safety reasons, only verified services have access to the database of reports. If you work for a service that could benefit from the database please contact us to begin a verification process.</item>
+
+        <item>I don\'t have internet while out, how can I report a rough sleeper?</item>
+        <item>One way is to use the contact information provided in the Contacts tab. You can also create report drafts that you can submit once you have internet.</item>
+
+        <item>Can I share my reports with friends?</item>
+        <item>The current version of the app does not support sharing of reports. This feature is in the works however.</item>
+    </string-array>
+    <string-array name="privacy">
+        <item>All reports are anonymous unless you give names in the description section of your report.</item>
+        <item>By submitting a report, you agree that any information you provide can be used by third parties to aid the person/people the report pertains to.</item>
+        <item>The app only submits data within the report to the database, no other data is submitted.</item>
+        <item>Any photos submitted will be provided to the third party services, therefore please refrain from including faces in the photo. If you are unsure about the validity of your photo, don\'t include it, instead provide a description of the area.</item>
+        <item>The app uses location services to aid in submitting reports, however the location can be manually changed and the app will never store a location unless it is submitted in a report.</item>
+        <item>hoME provides access to its database only to verified services, the application or its owners do not assume responsibility over data submitted by its users.</item>
+        <item>For any other privacy concerns use the Contact Us section to make inquiries.</item>
+    </string-array>
+    <string name="my_location_btn">My Location</string>
+    <string name="specific_location_btn">Specify Location</string>
+    <string name="desc_hint">Description&#8230;</string>
+    <string name="people_cnt_hint">No. of people</string>
+    <string name="shelterSwitch">Is the person or people under a roof?</string>
+    <string name="submit">Submit</string>
+    <string name="services_title">Find homeless services in your area</string>
+    <string name="contact_spinner_title">Select County…</string>
+    <string-array name="counties_array">
+        <item>Select county…</item>
+        <item>Dublin</item>
+        <item>¬Dublin City Council</item>
+        <item>¬Dún Laoghaire–Rathdown</item>
+        <item>¬Fingal</item>
+        <item>¬South Dublin</item>
+        <item>Carlow</item>
+        <item>Cavan</item>
+        <item>Clare</item>
+        <item>Cork</item>
+        <item>Donegal</item>
+        <item>Galway</item>
+        <item>Kerry</item>
+        <item>Kildare</item>
+        <item>Kilkenny</item>
+        <item>Laois</item>
+        <item>Leitrim</item>
+        <item>Limerick</item>
+        <item>Longford</item>
+        <item>Louth</item>
+        <item>Mayo</item>
+        <item>Meath</item>
+        <item>Monaghan</item>
+        <item>Offaly</item>
+        <item>Roscommon</item>
+        <item>Sligo</item>
+        <item>Tipperary</item>
+        <item>Waterford</item>
+        <item>Westmeath</item>
+        <item>Wexford</item>
+        <item>Wicklow</item>
+    </string-array>
+    <string name="ascii_location">📌</string>
+    <string name="ascii_num_of_ppl">👤</string>
+    <string name="ascii_sheltered">🏠</string>
+    <string name="desc">Description</string>
+    <string name="counties_description">An image of Ireland with county borders</string>
+    <string name="counties_colour_description">An image of Ireland with each county in the republic coloured differently as per county_colours table in county_details</string>
+    <string name="statsInfoText">Click on a county in the Republic of Ireland (yes, the 6 northern counties don\'t count) to display the number of homeless people recorded per month</string>
+    <string name="county">County</string>
+    <string name="month1">June \'19</string>
+    <string name="month2">July \'19</string>
+    <string name="month3">August \'19</string>
+</resources>

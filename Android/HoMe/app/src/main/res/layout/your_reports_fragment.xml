@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reportTable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="3">
+
+    <TableRow
+        android:paddingVertical="10dp"
+        android:id="@+id/tableHeaders"
+        android:background="@android:color/darker_gray"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="@string/ascii_location"
+            style="@style/ReportsCols"
+            android:layout_column="0"/>
+
+        <TextView
+            android:text="@string/ascii_num_of_ppl"
+            style="@style/ReportsCols"
+            android:layout_column="1"/>
+
+        <TextView
+            android:text="@string/ascii_sheltered"
+            style="@style/ReportsCols"
+            android:layout_column="2"/>
+
+        <TextView
+            android:text="@string/desc"
+            style="@style/ReportsCols"
+            android:layout_gravity="start"
+            android:layout_column="3"/>
+
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/call_unpressed" />
+                    <size android:width="180dp" android:height="80dp" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/ic_phone_white_24dp" android:top="5dp" android:bottom="5dp" android:left="50dp" android:right="50dp" />
+        </layer-list>
+    </item>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/call_pressed" />
+                    <size android:width="60dp" android:height="30dp" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/ic_phone_white_24dp" android:top="5dp" android:bottom="5dp" android:left="50dp" android:right="50dp" />
+        </layer-list>
+    </item>
+</selector>
