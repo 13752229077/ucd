@@ -1,0 +1,109 @@
+.parent{
+    -fx-background-color: #fff;
+}
+
+.sidebar{
+    -fx-background-color: #333645;
+}
+
+.sidebar_btns{
+    -fx-background-color: transparent;
+}
+
+.sidebar_btns:hover{
+    -fx-border-width: 0px 0px 0px 3px;
+    -fx-border-color: #4c8bf5;
+
+}
+
+.sidebar_btns:focused{
+    -fx-border-color: #4c8bf5;
+    -fx-border-width: 0px 0px 0px 3px;
+    -fx-background-color: #000800;
+}
+
+
+.app_btns{
+    -fx-background-color:  #4c8bf5;
+    -fx-background-radius: 30;
+}
+
+.app_btns:pressed{
+    -fx-background-color: #043993;
+}
+
+
+.teambox{
+    -fx-border-color: #7C8184;
+    -fx-border-width: 1px 0px 0px 0px;
+}
+
+.combo-box{
+    -fx-background-color: #333645;
+    -fx-mark-color: white;
+    -fx-background-radius: 30;
+    -fx-text-fill: white;
+}
+
+.combo-box>*.list-cell{
+    -fx-text-fill: #7C8184;
+}
+
+.scroll-bar:vertical{
+    -fx-background-color: #333645;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #7C8184;
+}
+
+.scroll-bar:horizontal{
+    -fx-background-color: #333645;
+}
+
+.scroll-bar:horizontal .thumb{
+    -fx-background-color: #7C8184;
+}
+
+.text-area .content{
+    -fx-background-color: #333645;
+}
+
+.text-area{
+    -fx-text-fill: #7C8184;
+    -fx-highlight-fill: #4c8bf5;
+    -fx-highlight-text-fill: white;
+    -fx-border-radius: 10 10 0 0;
+    -fx-background-radius: 10 10 0 0;
+}
+
+.chart-plot-background {
+    -fx-background-color:transparent;
+}
+
+.chart{
+    -fx-background-color: #333645;
+}
+.axis{
+    -fx-tick-label-fill: white;
+    -fx-tick-length: 0;
+    -fx-stroke: white;
+}
+.axis-label {
+    -fx-text-fill: #ffffff;
+}
+.chart-title {
+    -fx-text-fill: #ffffff;
+}
+.chart-vertical-zero-line {
+    -fx-stroke: white;
+}
+.chart-horizontal-zero-line {
+    -fx-stroke: white;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #7C8184;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #7C8184;
+}

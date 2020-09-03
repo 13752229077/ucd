@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane fx:id="root" prefHeight="780.0" prefWidth="1350.0" styleClass="parent" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI">
+   <children>
+      <VBox prefHeight="780.0" prefWidth="301.0" styleClass="sidebar">
+         <children>
+            <Label contentDisplay="LEFT" prefHeight="100.0" prefWidth="306.0" style="-fx-background-color: #4c8bf5" text="Nosejob" textAlignment="LEFT" textFill="WHITE" textOverrun="ELLIPSIS" underline="false" wrapText="false">
+               <font>
+                  <Font name="Dubai Light" size="33.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Label>
+            <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="300.0">
+               <children>
+                  <Button fx:id="btnHome" alignment="TOP_LEFT" mnemonicParsing="false" onMouseClicked="#handleSideBarClicks" prefHeight="40.0" prefWidth="300.0" styleClass="sidebar_btns" text="  Home" textFill="#7c8184">
+                     <font>
+                        <Font name="Dubai Regular" size="15.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="HOME" glyphStyle="-fx-fill: #7c8184;" size="1.7em" styleClass="sidebar-btn-icon" />
+                     </graphic>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0">
+               <children>
+                  <Button fx:id="btnAnalysis" alignment="TOP_LEFT" mnemonicParsing="false" onMouseClicked="#handleSideBarClicks" prefHeight="40.0" prefWidth="300.0" styleClass="sidebar_btns" text="  Overview" textFill="#7c8184">
+                     <font>
+                        <Font name="Dubai Regular" size="15.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="PIE_CHART" glyphStyle="-fx-fill: #7c8184;" size="1.7em" styleClass="sidebar-btn-icon" />
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="160.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#handleSideBarClicks" prefHeight="40.0" prefWidth="300.0">
+               <children>
+                  <Button fx:id="btnDetails" alignment="TOP_LEFT" mnemonicParsing="false" onMouseClicked="#handleSideBarClicks" prefHeight="40.0" prefWidth="300.0" styleClass="sidebar_btns" text="  Details" textFill="#7c8184">
+                     <font>
+                        <Font name="Dubai Regular" size="15.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="TASKS" glyphStyle="-fx-fill: #7c8184;" size="1.7em" styleClass="sidebar-btn-icon" />
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0">
+               <children>
+                  <Button fx:id="btnAbout" alignment="TOP_LEFT" mnemonicParsing="false" onMouseClicked="#handleSideBarClicks" prefHeight="40.0" prefWidth="400.0" styleClass="sidebar_btns" text="   About" textFill="#7c8184">
+                     <font>
+                        <Font name="Dubai Regular" size="15.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="INFO_CIRCLE" glyphStyle="-fx-fill: #7c8184;" size="1.7em" stroke="#ffffff00" styleClass="sidebar-btn-icon" text="" />
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+            <VBox styleClass="teambox" VBox.vgrow="ALWAYS">
+               <children>
+                  <Label text="MCINO Members" textFill="#7c8184">
+                     <font>
+                        <Font name="Dubai Light" size="15.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER_LEFT">
+                     <children>
+                        <FontAwesomeIconView fill="WHITE" glyphName="USER" glyphStyle="-fx-fill:  #4c8bf5" size="2em" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </FontAwesomeIconView>
+                        <VBox alignment="CENTER_LEFT">
+                           <children>
+                              <Label text="Kamil Cierpisz" textFill="#7c8184">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Team Leader" textFill="#7c8184">
+                                 <font>
+                                    <Font size="11.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="49.0">
+                     <children>
+                        <FontAwesomeIconView fill="WHITE" glyphName="USER" glyphStyle="-fx-fill:  #4c8bf5" size="2em" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </FontAwesomeIconView>
+                        <VBox alignment="CENTER_LEFT">
+                           <children>
+                              <Label text="Nikolaj Jasenko" textFill="#7c8184">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label text="UI/UX Designer" textFill="#7c8184">
+                                 <font>
+                                    <Font size="11.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="86.0">
+                     <children>
+                        <FontAwesomeIconView fill="WHITE" glyphName="USER" glyphStyle="-fx-fill:  #4c8bf5" size="2em" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </FontAwesomeIconView>
+                        <VBox alignment="CENTER_LEFT">
+                           <children>
+                              <Label text="Temitope Akinwale" textFill="#7c8184">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Software Engineer" textFill="#7c8184">
+                                 <font>
+                                    <Font size="11.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="123.0">
+                     <children>
+                        <FontAwesomeIconView fill="WHITE" glyphName="USER" glyphStyle="-fx-fill:  #4c8bf5" size="2em" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </FontAwesomeIconView>
+                        <VBox alignment="CENTER_LEFT">
+                           <children>
+                              <Label text="Daniel Hand" textFill="#7c8184">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Software Engineer" textFill="#7c8184">
+                                 <font>
+                                    <Font size="11.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <VBox alignment="BOTTOM_CENTER" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label alignment="BOTTOM_CENTER" text="© MCINO 2019" textFill="#545454" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets left="10.0" top="10.0" />
+               </padding>
+            </VBox>
+         </children>
+      </VBox>
+      <VBox layoutX="307.0" prefHeight="780.0" prefWidth="1043.0">
+         <children>
+            <Pane prefHeight="100.0" prefWidth="1043.0">
+               <children>
+                  <Label fx:id="lblPage" alignment="TOP_LEFT" layoutX="14.0" layoutY="14.0" text="Home" textFill="#333645">
+                     <font>
+                        <Font name="Dubai Light" size="39.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIconView fx:id="btnClose" fill="#333645" glyphName="CLOSE" layoutX="1016.0" layoutY="31.0" onMouseClicked="#handleClose" size="20" wrappingWidth="14.142857551574707" />
+                  <FontAwesomeIconView fx:id="btnMinimize" glyphName="MINUS" layoutX="993.0" layoutY="31.0" onMouseClicked="#handleMinimize" size="16" />
+               </children>
+            </Pane>
+            <StackPane prefHeight="680.0" prefWidth="1043.0">
+               <children>
+                  <AnchorPane fx:id="pnHome" prefHeight="503.0" prefWidth="798.0" visible="false">
+                     <children>
+                        <VBox alignment="CENTER" layoutX="-6.0" prefHeight="108.0" prefWidth="1050.0" style="-fx-background-color: #4c8bf5;">
+                           <children>
+                              <Label alignment="CENTER" text="Welcome, let's get started." textFill="WHITE" VBox.vgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Dubai Regular" size="28.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <Button fx:id="btnProject" layoutX="428.0" layoutY="340.0" mnemonicParsing="false" onMouseClicked="#handleDirChooser" prefHeight="50.0" prefWidth="182.0" styleClass="app_btns" text="Open Project" textFill="WHITE">
+                           <font>
+                              <Font name="Dubai Regular" size="21.0" />
+                           </font>
+                        </Button>
+                        <Label alignment="CENTER" layoutX="201.0" layoutY="211.0" text="Open up your project and head to Overview to see more." textFill="#4c8bf5">
+                           <font>
+                              <Font name="Dubai Regular" size="28.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="pnDetails" prefHeight="673.0" prefWidth="1043.0">
+                     <children>
+                        <GridPane alignment="CENTER" prefHeight="28.0" prefWidth="1043.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="523.0" minWidth="0.0" prefWidth="523.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="668.0" minWidth="0.0" prefWidth="519.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="352.0" minWidth="0.0" prefWidth="0.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="140.0" minWidth="0.0" prefWidth="0.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints maxHeight="70.0" minHeight="26.0" prefHeight="37.0" />
+                              <RowConstraints maxHeight="70.0" minHeight="0.0" prefHeight="33.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="60.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="60.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <ComboBox fx:id="comboSource" prefHeight="25.0" prefWidth="520.0" promptText="Select source" stylesheets="@stylesheet.css">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <GridPane.margin>
+                                    <Insets left="10.0" right="10.0" />
+                                 </GridPane.margin>
+                              </ComboBox>
+                              <ComboBox fx:id="comboSmell" prefHeight="25.0" prefWidth="524.0" promptText="Select smell" stylesheets="@stylesheet.css" GridPane.columnIndex="1">
+                                 <GridPane.margin>
+                                    <Insets right="10.0" />
+                                 </GridPane.margin>
+                              </ComboBox>
+                           </children>
+                        </GridPane>
+                        <HBox layoutY="28.0" prefHeight="25.0" prefWidth="1043.0">
+                           <children>
+                              <Button fx:id="btnShowDetails" mnemonicParsing="false" onMouseClicked="#handleDetails" prefHeight="25.0" prefWidth="1044.0" styleClass="app_btns" text="Show Details" textFill="WHITE" />
+                           </children>
+                           <padding>
+                              <Insets left="10.0" right="10.0" top="5.0" />
+                           </padding>
+                        </HBox>
+                        <VBox fx:id="boxCode" layoutY="58.0" prefHeight="409.0" prefWidth="1043.0">
+                           <children>
+                              <StackPane fx:id="codePane" prefHeight="412.0" prefWidth="1023.0" />
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                        <HBox layoutX="14.0" layoutY="467.0" prefHeight="50.0" prefWidth="1011.0">
+                           <children>
+                              <Label fx:id="lblSource" alignment="CENTER">
+                                 <font>
+                                    <Font name="Dubai Regular" size="32.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="14.0" layoutY="519.0" prefHeight="151.0" prefWidth="1011.0">
+                           <children>
+                              <Label fx:id="lblSmell" alignment="TOP_LEFT" wrapText="true">
+                                 <font>
+                                    <Font name="Dubai Light" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="pnAbout" prefHeight="673.0" prefWidth="1043.0" visible="false">
+                     <children>
+                        <WebView fx:id="htmlContent" prefHeight="651.0" prefWidth="1038.0" stylesheets="@tab-content.css" />
+                        <TabPane fx:id="tabAbout" prefHeight="673.0" prefWidth="1038.0" stylesheets="@tab-pane.css" tabClosingPolicy="UNAVAILABLE">
+                           <tabs>
+                              <Tab id="tabProject" fx:id="tabProject" text="Project">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="649.0" prefWidth="980.0" />
+                                 </content>
+                              </Tab>
+                              <Tab id="tabLongMethod" fx:id="tabLongMethod" text="Long Method">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                 </content>
+                              </Tab>
+                              <Tab id="tabLongClass" fx:id="tabLongClass" text="Long Class">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                 </content>
+                              </Tab>
+                              <Tab id="tabCyclomaticComplexity" fx:id="tabCyclomaticComplexity" text="Cyclomatic Complexity">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                 </content>
+                              </Tab>
+                              <Tab id="tabDataClumps" fx:id="tabDataClumps" text="Data Clumps">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                 </content>
+                              </Tab>
+                              <Tab id="tabDuplicatedCode" fx:id="tabDuplicatedCode" text="Duplicated Code">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                 </content>
+                              </Tab>
+                              <Tab id="tabFeatureEnvy" fx:id="tabFeatureEnvy" text="Feature Envy">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                 </content>
+                              </Tab>
+                              <Tab id="tabHeavyCommenting" fx:id="tabHeavyCommenting" text="Heavy Commenting">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="606.0" prefWidth="1023.0" />
+                                 </content>
+                              </Tab>
+                              <Tab id="tabLazyClass" fx:id="tabLazyClass" text="Lazy Class">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                 </content>
+                              </Tab>
+                              <Tab id="tabRefusedBequest" fx:id="tabRefusedBequest" text="Refused Bequest">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                 </content>
+                              </Tab>
+                           </tabs>
+                        </TabPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="pnAnalysis" prefHeight="680.0" prefWidth="1021.0">
+                     <children>
+                        <HBox fx:id="severityBox" layoutX="1.0" prefHeight="340.0" prefWidth="517.0" />
+                        <HBox fx:id="occurrenceBox" layoutX="518.0" prefHeight="340.0" prefWidth="524.0" />
+                        <Label fx:id="lblMsg" alignment="CENTER" contentDisplay="CENTER" layoutX="442.0" layoutY="172.0" prefHeight="17.0" prefWidth="161.0" text="Nothing to display">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <VBox alignment="CENTER" layoutX="403.0" layoutY="156.0" prefHeight="82.0" prefWidth="240.0" />
+                        <Label fx:id="barValue" alignment="CENTER" contentDisplay="CENTER" layoutX="163.0" layoutY="419.0" text="0" textFill="#4c8bf5">
+                           <font>
+                              <Font name="Dubai Regular" size="96.0" />
+                           </font>
+                        </Label>
+                        <VBox layoutX="442.0" layoutY="419.0" prefHeight="238.0" prefWidth="439.0">
+                           <children>
+                              <Label fx:id="lblComment" text="Label" wrapText="true">
+                                 <font>
+                                    <Font name="Dubai Light" size="28.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </StackPane>
+         </children></VBox>
+   </children>
+   <stylesheets>
+      <URL value="@stylesheet.css" />
+   </stylesheets>
+</AnchorPane>

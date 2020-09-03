@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Clumps</title>
+</head>
+<body>
+    <h2>What is a Data Clump smell?</h2>
+    Data Clumps is occurs when different values are passed around together in code.
+
+    <h2>How can we treat data clumps?</h2>
+    <ul>
+        <li>If certain fields are repeated many times we can use an  Extract Class to move the fields to their own class.</li>
+        <li>If the same data clumps are passed in the parameters of methods, use Introduce Parameter Object to set them off as a class.</li>
+        <li>If some of the data is passed to other methods, think about passing the entire data object to the method instead of just individual fields. Preserve Whole Object will help with this.</li>
+        <li>Look at the code used by these fields. It may be a good idea to move this code to a data class.</li>
+    </ul>
+
+    <h2>Why bother?</h2>
+    <ul>
+        <li>Makes code easier to understand. Certain code is now stored in the same place instead of being distorted throughout the program.</li>
+        <li>Reduces code size and improves overall code efficiency.</li>
+    </ul>
+
+
+</body>
+</html>

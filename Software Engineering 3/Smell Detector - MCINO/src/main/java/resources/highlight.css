@@ -1,0 +1,55 @@
+
+.keyword {
+    -fx-fill: orange;
+    -fx-font-weight: bold;
+}
+.semicolon {
+    -fx-font-weight: bold;
+    -fx-fill: orange;
+}
+.paren {
+    -fx-fill: white;
+    -fx-font-weight: bold;
+}
+.bracket {
+    -fx-fill: white;
+    -fx-font-weight: bold;
+}
+.brace {
+    -fx-fill: white;
+    -fx-font-weight: bold;
+}
+.string {
+    -fx-fill: #4c8bf5;
+}
+
+.comment {
+    -fx-fill: #7C8184;
+}
+
+.paragraph-box:has-caret {
+    -fx-background-color: #505670;
+}
+
+.body{
+    -fx-fill: white;
+}
+
+.character{
+    -fx-fill: white;
+}
+
+
+.styled-text-area{
+    -fx-background-color: #333645;
+}
+
+.lineno{
+    -fx-background-color: #333645;
+    -fx-text-fill:#7C8184;
+    -fx-padding-left: 3px;
+}
+
+.smell{
+    -fx-background-color: rgba(38, 52, 108, 1);
+}

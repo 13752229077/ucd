@@ -1,0 +1,58 @@
+.tab-content-area
+{
+    -fx-background-color: #333645;
+}
+
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-color: transparent;
+}
+
+.tab:top
+{
+    -fx-background-color: transparent;
+}
+.tab:right
+{
+    -fx-background-color: transparent;
+}
+.tab:bottom
+{
+    -fx-background-color: transparent;
+
+}
+.tab:left
+{
+    -fx-background-color: transparent;
+}
+
+.tab{
+    -fx-background-insets: 0.0;
+}
+.tab-label
+{
+    -fx-text-fill: #333645;
+    -fx-padding: 0 0.4em;
+}
+
+
+.tab:selected .tab-label{
+    -fx-text-fill: #7c8184;
+}
+
+.tab:selected{
+    -fx-background-color: #333645;
+}
+
+.tab-header-background {
+    -fx-background-color: transparent;
+}
+
+.tab-pane:top *.tab-header-area {
+    -fx-padding: 0;
+}
+
+.styled-text-area{
+    -fx-background-color: #333645;
+}
+
+

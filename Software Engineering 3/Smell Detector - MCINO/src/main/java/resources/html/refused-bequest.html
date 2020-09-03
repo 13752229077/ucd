@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Refused Bequest</title>
+</head>
+<body>
+<h2>What is a Refused Bequest smell?</h2>
+If a subclass only uses some of the methods from the superclass, the methods that are not used may lead to exceptions.
+
+<h2>How can we treat refused bequest?</h2>
+<ul>
+    <li>Inheritance is useful but not in all cases. If a lot of methods are unused maybe replace inheritance with delegation.</li>
+    <li>If inheritance is the most efficient way to go, get rid of unused methods and create an Extract class for those methods.</li>
+</ul>
+
+<h2>Why bother?</h2>
+<ul>
+    <li>Makes code more legible and easier to understand. Reduces ambiguity and makes sure subclasses pass the 'is a' test for inheritance.</li>
+</ul>
+</body>
+</html>

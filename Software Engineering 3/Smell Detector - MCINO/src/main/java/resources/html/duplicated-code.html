@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Duplicated Code</title>
+</head>
+<body>
+
+    <h2>What is a Duplicated Code smell?</h2>
+    When a program contains two sections of code which are identical or extremely similar.
+
+    <h2>How can we treat duplicated code?</h2>
+    <ul>
+        <li>Use an Extract Method and place calls for the new method in both places if the same piece of code is found in different methods in the class.</li>
+        <li>If the same code is found in two subclasses of the same level:</li>
+        <ul>
+            <li>We can use an Extract Method for both classes. It may be useful to also follow this up using a Pull Up Field.</li>
+            <li>Use Form Template Method if the duplicate code is similar but not completely identical.</li>
+            <li>If two methods have the same function but use two different logic, select the best algorithm and apply Substitute. </li>
+        </ul>
+        <li>If duplicate code is found in two different classes:</li>
+        <ul>
+            <li>Use Extract Superclass in order to create a single superclass for these classes that maintains all the previous functionality, if the classes aren’t part of a hierarchy,.</li>
+            <li>Use Extract Class in one class and use the new component in the other if its difficult to create a superclass.</li>
+        </ul>
+        <li>If a large number of conditional expressions are present and perform the same code (differing only in their conditions), merge these operators into a single condition using Consolidate Conditional Expression and use Extract Method to place the condition in a separate method with an easy-to-understand name.</li>
+        <li>If the same code is performed in all branches of a conditional expression: place the identical code outside of the condition tree by using Consolidate Duplicate Conditional Fragments.</li>
+    </ul>
+
+    <h2>Why bother?</h2>
+    <ul>
+        <li>Makes code easier to simplify and cheaper to support .</li>
+        <li>Merging duplicate code simplifies the structure of your code and makes it shorter.</li>
+    </ul>
+
+</body>
+</html>
