@@ -4,7 +4,7 @@
 
 TweeterTags is an App to fetch tweets given a hashtag or a user name using the Twitter API
 
-**Note - Twitter keys not provided
+<i>Note - Twitter keys not provided</i>
 
 
 ---
